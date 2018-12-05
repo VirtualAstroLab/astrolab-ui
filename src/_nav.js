@@ -16,7 +16,7 @@ export default {
     },
     {
       name: 'Stellar Spectrography',
-      url: '/theme/colors',
+      url: '/stellarspectrography',
       icon: 'cui-sun',
     },
     {
