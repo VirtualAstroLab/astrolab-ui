@@ -23,6 +23,14 @@ class Register extends Component {
                     </InputGroup>
                     <InputGroup className="mb-3">
                       <InputGroupAddon addonType="prepend">
+                        <InputGroupText>
+                          <i className="fa fa-institution"></i>
+                        </InputGroupText>
+                      </InputGroupAddon>
+                      <Input type="text" placeholder="Institution" autoComplete="institution" />
+                    </InputGroup>
+                    <InputGroup className="mb-3">
+                      <InputGroupAddon addonType="prepend">
                         <InputGroupText>@</InputGroupText>
                       </InputGroupAddon>
                       <Input type="text" placeholder="Email" autoComplete="email" />
@@ -52,7 +60,7 @@ class Register extends Component {
                       <Button className="btn-facebook mb-1" block><span>facebook</span></Button>
                     </Col>
                     <Col xs="12" sm="6">
-                      <Button className="btn-twitter mb-1" block><span>twitter</span></Button>
+                      <Button className="btn-google mb-1" block><span>google</span></Button>
                     </Col>
                   </Row>
                 </CardFooter>
